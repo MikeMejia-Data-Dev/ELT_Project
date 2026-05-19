@@ -21,7 +21,7 @@ cursor.execute("""
 ## CREATE TABLES IN RAW SCHEMA (ORDER_ITEMS)
 
 cursor.execute("""
-    CREATE TABLE IF NOT EXISTS raw.ordoer_items (
+    CREATE TABLE IF NOT EXISTS raw.order_items (
         order_id TEXT,
         order_item_id TEXT,
         product_id TEXT,
